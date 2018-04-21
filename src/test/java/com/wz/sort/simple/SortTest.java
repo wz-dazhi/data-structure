@@ -9,12 +9,12 @@ import static org.junit.Assert.*;
 /**
  * @projectName: data-structure
  * @package: com.wz.sort.simple
- * @className: BubbleSortTest
+ * @className: SortTest
  * @description:
  * @author: wangzhi
  * @createDate: 2018/4/19 21:54
  **/
-public class BubbleSortTest {
+public class SortTest {
 
     private long[] arr;
 
@@ -35,8 +35,10 @@ public class BubbleSortTest {
     }
 
     @Test
-    public void bubbleSort() {
-        BubbleSort.bubbleSort(arr);
+    public void sort() {
+//        BubbleSort.sort(arr);
+//        SelectionSort.sort(arr);
+        InsertSort.sort(arr);
     }
 
     /**

@@ -15,7 +15,7 @@ public class BubbleSort {
      *
      * @param arr
      */
-    public static void bubbleSort(long[] arr) {
+    public static void sort(long[] arr) {
         long tmp;
         for (int i = 0; i < arr.length - 1; i++) {
             // 从后向前循环进行排序交换
