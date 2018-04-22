@@ -44,7 +44,7 @@ public class MyStack {
     /**
      * 查看数据
      */
-    public long speak() {
+    public long peek() {
         return arr[top];
     }
 

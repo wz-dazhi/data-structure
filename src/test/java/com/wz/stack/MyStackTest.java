@@ -45,8 +45,8 @@ public class MyStackTest {
     }
 
     @Test
-    public void speak() {
-        System.out.println(stack.speak());
+    public void peek() {
+        System.out.println(stack.peek());
     }
 
     @Test
