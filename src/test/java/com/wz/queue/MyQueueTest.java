@@ -45,7 +45,7 @@ public class MyQueueTest {
         while (!myQueue.isEmpty()) {
             System.out.print(myQueue.remove() + ",");
         }
-        // ,上面将队列删除完了之后,再插入数据会导致下标越界,因为不是循环队列,已经没有位置插入数据
+        // 上面将队列删除完了之后,再插入数据会导致下标越界,因为不是循环队列,已经没有位置插入数据
 //        myQueue.insert(3);
     }
 
